@@ -22,6 +22,11 @@ public:
     void MB2() {
         cout << "Método MB2 executado" << endl;
     }
+
+    void MB3() {
+        cout << "Método MB3 executado" << endl;
+    }
+
 };
 
 int main() {
