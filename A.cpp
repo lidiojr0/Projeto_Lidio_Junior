@@ -5,6 +5,7 @@ class A {
 private:
     int A1;
     float A2;
+    int B;
 
 public:
     // Getters e Setters
@@ -25,6 +26,10 @@ public:
 
     void MA3() {
         cout << "Alteração a classe A a partir do clone" << endl;
+    }
+
+    int getSoma(int A1, int B){
+        return A1 + B;
     }
 
 };
